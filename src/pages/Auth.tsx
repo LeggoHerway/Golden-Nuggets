@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Eye, EyeOff, ArrowRight, Shield, Lock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import logoSharedrop from "@/assets/mine2pie.png";
+import mine2pie from "@/assets/mine2pie.png";
 
 const authSchema = z.object({
   email: z.string().trim().email({ message: "Please enter a valid email address" }).max(255, { message: "Email must be less than 255 characters" }),
@@ -87,7 +87,7 @@ const Auth = () => {
     return (
       <div className="fixed inset-0 gradient-bg flex items-center justify-center">
         <motion.img 
-          src={logoSharedrop} 
+          src={mine2pie} 
           alt="ShareDrop" 
           className="w-16 h-16 object-contain"
           animate={{ scale: [1, 1.05, 1] }}
@@ -128,7 +128,7 @@ const Auth = () => {
           whileHover={{ scale: 1.02 }}
         >
           <img 
-            src={logoSharedrop} 
+            src={mine2pie} 
             alt="ShareDrop" 
             className="w-16 h-16 object-contain"
           />
