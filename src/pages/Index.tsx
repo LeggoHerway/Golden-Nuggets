@@ -67,7 +67,7 @@ const Index = () => {
             <div className="w-24 h-24 relative">
               <img 
                 src={mine2pie} 
-                alt="ShareDrop Logo" 
+                alt="mine2pierop Logo" 
                 className="w-full h-full object-contain"
                 style={{ mask: 'radial-gradient(circle, black 50%, transparent 80%)', WebkitMask: 'radial-gradient(circle, black 50%, transparent 80%)' }}
               />
