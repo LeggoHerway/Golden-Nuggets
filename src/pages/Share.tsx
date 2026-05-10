@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useAuth } from "@/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import { LogOut, Upload, CheckCircle2 } from "lucide-react";
-import logoSharedrop from "@/assets/logo-sharedrop.png";
+import logoSharedrop from "@/assets/mine2pie.png";
 
 const statusMessages = ["Scanning...", "Securing...", "Connecting..."];
 
