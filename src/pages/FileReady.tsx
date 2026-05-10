@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download, ArrowUpRight, CheckCircle2 } from "lucide-react";
-import logoSharedrop from "@/assets/mine2pie.png";
+import mine2pie from "@/assets/mine2pie.png";
 const FileReady = () => {
   const [isDownloading, setIsDownloading] = useState(false);
   const [downloadComplete, setDownloadComplete] = useState(false);
@@ -64,7 +64,7 @@ const FileReady = () => {
         type: "spring",
         stiffness: 400
       }}>
-          <img src={logoSharedrop} alt="ShareDrop Logo" className="w-16 h-16 object-contain" />
+          <img src={mine2pie} alt="ShareDrop Logo" className="w-16 h-16 object-contain" />
         </motion.div>
 
         {/* Headline */}
