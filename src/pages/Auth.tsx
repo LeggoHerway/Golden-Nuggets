@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Eye, EyeOff, ArrowRight, Shield, Lock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import logoSharedrop from "@/assets/logo-sharedrop.png";
+import logoSharedrop from "@/assets/mine2pie.png";
 
 const authSchema = z.object({
   email: z.string().trim().email({ message: "Please enter a valid email address" }).max(255, { message: "Email must be less than 255 characters" }),
