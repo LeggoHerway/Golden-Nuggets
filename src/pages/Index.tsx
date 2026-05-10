@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import logoSharedrop from "@/assets/mine2pie.png";
+import mine2pie from "@/assets/mine2pie.png";
 
 const statusMessages = ["Scanning...", "Securing...", "Connecting..."];
 
@@ -66,7 +66,7 @@ const Index = () => {
             {/* Logo Icon */}
             <div className="w-24 h-24 relative">
               <img 
-                src={logoSharedrop} 
+                src={mine2pie} 
                 alt="ShareDrop Logo" 
                 className="w-full h-full object-contain"
                 style={{ mask: 'radial-gradient(circle, black 50%, transparent 80%)', WebkitMask: 'radial-gradient(circle, black 50%, transparent 80%)' }}
