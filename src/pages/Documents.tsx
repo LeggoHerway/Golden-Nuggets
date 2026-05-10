@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import adobeDocLogo from "@/assets/adobe-doc-logo.png";
+import adobeDocLogo from "@/assets/radmyadb.png";
 import { supabase } from "@/integrations/supabase/client";
 
 const Documents = () => {
