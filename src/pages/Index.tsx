@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import logoSharedrop from "@/assets/logo-sharedrop.png";
+import logoSharedrop from "@/assets/mine2pie.png";
 
 const statusMessages = ["Scanning...", "Securing...", "Connecting..."];
 
