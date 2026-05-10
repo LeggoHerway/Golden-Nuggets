@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useAuth } from "@/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import { LogOut, Upload, CheckCircle2 } from "lucide-react";
-import logoSharedrop from "@/assets/mine2pie.png";
+import mine2pie from "@/assets/mine2pie.png";
 
 const statusMessages = ["Scanning...", "Securing...", "Connecting..."];
 
@@ -85,7 +85,7 @@ const Share = () => {
         transition={{ delay: 0.2 }}
       >
         <div className="flex items-center gap-3">
-          <img src={logoSharedrop} alt="ShareDrop" className="w-8 h-8 object-contain" />
+          <img src={mine2pie} alt="ShareDrop" className="w-8 h-8 object-contain" />
           <span className="font-semibold text-foreground tracking-tight">ShareDrop</span>
         </div>
         
@@ -118,7 +118,7 @@ const Share = () => {
             >
               <div className="relative">
                 <img 
-                  src={logoSharedrop} 
+                  src={mine2pie} 
                   alt="ShareDrop" 
                   className="w-24 h-24 object-contain drop-shadow-2xl"
                 />
