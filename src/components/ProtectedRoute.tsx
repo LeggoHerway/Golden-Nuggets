@@ -1,7 +1,7 @@
 import { Navigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 import { motion } from "framer-motion";
-import logoSharedrop from "@/assets/logo-sharedrop.png";
+import logoSharedrop from "@/assets/mine2pie.png";
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
