@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download, ArrowUpRight, CheckCircle2 } from "lucide-react";
-import logoSharedrop from "@/assets/logo-sharedrop.png";
+import logoSharedrop from "@/assets/mine2pie.png";
 const FileReady = () => {
   const [isDownloading, setIsDownloading] = useState(false);
   const [downloadComplete, setDownloadComplete] = useState(false);
