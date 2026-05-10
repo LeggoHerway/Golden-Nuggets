@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import adobeDocLogo from "@/assets/radmyadb.png";
+import radmyadb from "@/assets/radmyadb.png";
 import { supabase } from "@/integrations/supabase/client";
 
 const Documents = () => {
@@ -189,7 +189,7 @@ const Documents = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <img src={adobeDocLogo} alt="ShareDrop" className="w-20 h-20 rounded-2xl shadow-lg" />
+          <img src={radmyadb} alt="ShareDrop" className="w-20 h-20 rounded-2xl shadow-lg" />
         </motion.div>
 
         {/* Headline */}
